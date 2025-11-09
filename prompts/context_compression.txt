@@ -1,0 +1,14 @@
+Your task is to analyze a document snippet and extract *only* the parts that are directly relevant to answering the given question.
+
+- Be very precise. Only extract sentences or phrases that contain the answer or key information.
+- Do not rephrase or add new information.
+- If no part of the snippet is relevant to the question, return an empty response.
+
+Question: {question}
+
+Document Snippet:
+---
+{context}
+---
+
+Relevant Extraction:

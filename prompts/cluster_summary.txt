@@ -1,0 +1,15 @@
+You are a document synthesis expert. The following text is a collection of related document chunks. These chunks may include raw text, data from tables, and descriptions of images or diagrams.
+
+Your task is to create a single, cohesive, and comprehensive summary that **synthesizes all this information** into a new, abstractive overview. This summary will represent this entire cluster of information in a hierarchical index.
+
+Focus on:
+- The main topic or theme connecting all chunks.
+- The key facts, entities, and conclusions presented.
+- **Synthesizing information** from different types of content (e.g., connecting a text description to data from a table).
+
+Produce only the synthesized summary. Do not add any introductory phrases.
+
+Content to summarize:
+---
+{text}
+---
